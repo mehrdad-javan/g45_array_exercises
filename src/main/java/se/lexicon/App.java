@@ -48,6 +48,9 @@ public class App {
         case 13:
           Exercise13.ex13();
           break;
+        case 0:
+          System.exit(0);
+          break;
         default:
           System.out.println("\t\texercise number is not valid");
           break;
